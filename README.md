@@ -29,11 +29,12 @@
 
 For help See the Youtube:  
 
-https://github.com/jjmlovesgit/OllamaDID/blob/main/noraLC_thumb.png
+![image](https://github.com/jjmlovesgit/OllamaDID/assets/47751509/ac9a52fd-06d2-49ce-bb4d-2f6d8ff204b5)
 
 Helpfull Flowchart:
 
 https://github.com/jjmlovesgit/OllamaDID/blob/main/flowchart.png?raw=true
 
-![image](https://github.com/jjmlovesgit/OllamaDID/assets/47751509/ac9a52fd-06d2-49ce-bb4d-2f6d8ff204b5)
+![image](https://github.com/jjmlovesgit/OllamaDID/assets/47751509/a2d71890-3db3-4cd3-b382-784d5321812a)
+
 
