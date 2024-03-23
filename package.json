@@ -1,0 +1,23 @@
+{
+    "dependencies": {
+        "@huggingface/inference": "^2.6.4",
+        "@langchain/community": "^0.0.27",
+        "@langchain/openai": "^0.0.14",
+        "chromadb": "^1.8.1",
+        "dotenv": "^16.4.2",
+        "express": "^4.18.3",
+        "franc": "^6.1.0",
+        "hnswlib-node": "^1.4.2",
+        "langchain": "^0.0.187",
+        "microsoft-cognitiveservices-speech-sdk": "^1.33.1",
+        "node": "^21.7.1",
+        "node-fetch": "^2.7.0",
+        "npm": "^10.2.3",
+        "openai": "^4.28.4",
+        "text-generation": "^0.1.2",
+        "uninstall": "^0.0.0"
+    },
+    "scripts": {
+        "dev": "node app.js"
+    }
+}

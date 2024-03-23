@@ -1,0 +1,211 @@
+      body {
+        background-image: url('nora_BG.jpg');
+        /* Optionally, you can set properties like background size, position, and repeat */
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-color: #121212;
+        color: #ffffff;
+        font-family: 'Mulish', sans-serif;
+      }
+      .peerConnectionState-new {
+        color: cornflowerblue;
+      }
+      .peerConnectionState-connecting {
+        color: orange;
+      }
+      .peerConnectionState-connected {
+        color: green;
+      }
+      .peerConnectionState-disconnected,
+      .peerConnectionState-closed,
+      .peerConnectionState-failed {
+        color: red;
+      }
+
+      .iceConnectionState-new {
+        color: cornflowerblue;
+      }
+      .iceConnectionState-checking {
+        color: orange;
+      }
+      .iceConnectionState-connected,
+      .iceConnectionState-completed {
+        color: green;
+      }
+      .peerConnectionState-disconnected,
+      .peerConnectionState-closed,
+      .peerConnectionState-failed {
+        color: red;
+      }
+
+      .iceGatheringState-new {
+        color: cornflowerblue;
+      }
+      .iceGatheringState-gathering {
+        color: orange;
+      }
+      .iceGatheringState-complete {
+        color: black;
+      }
+
+      .signalingState-stable {
+        color: green;
+      }
+      .signalingState-have-local-offer,
+      .signalingState-have-remote-offer,
+      .signalingState-have-local-pranswer,
+      .signalingState-have-remote-pranswer {
+        color: cornflowerblue;
+      }
+      .signalingState-closed {
+        color: red;
+      }
+
+      .streamingState-streaming {
+        color: green;
+      }
+
+      .streamingState-empty {
+        color: grey;
+      }
+
+      .talk-button {
+        background-color: red !important; 
+      }
+
+      .response-label {
+        color: grey; 
+      }
+
+      body * {
+        font-family: 'Mulish', sans-serif;
+        text-align: center;
+      }
+
+      #content {
+        width: 820px;
+        position: relative;
+        margin: 0 auto;
+      }
+
+      #buttons {
+        clear: both;
+        padding: 0 0 0 0;
+        text-align: center;
+      }
+
+      button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        margin: 0 5px;
+        background-color: #3312d6;
+        color: #fff;
+        margin-bottom: 20px; 
+      }
+
+      button:hover {
+        background-color: #07702c;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+      }
+
+      #status div {
+        color: grey; /* Adjust the color as needed */
+      }
+
+      #status {
+        clear: both;
+        padding: 10px 0; /* Adjusted padding */
+        text-align: left; /* Keeps text aligned to the left inside the div */
+        display: block; /* Changed from inline-block to block for better centering */
+        margin: 0 auto; /* Centers the div horizontally */
+        width: 80%; /* Adjust the width as needed */
+        zoom: 1;
+        line-height: 140%;
+        font-size: 10px;
+      }
+
+      #status div {
+        padding-bottom: 10px;
+      }
+
+      #user-input-field {
+        width: 80%; /* Set desired width here */
+        padding: 10px; /* Adjust padding for appearance */
+        box-sizing: border-box; /* Width includes padding */
+        margin: 0 auto 20px; /* Centering and setting top margin */
+        display: block; /* To apply margin auto */
+        text-align: left; /* Align text to the left */
+        color: #000000; /* Text color */
+        background-color: #ffffff; /* Background color */
+        border-radius: 5px; /* Rounded corners */
+        overflow-y: auto; /* Adds scrollbar if content exceeds height */
+        line-height: 1.6; /* Adjust line height for readability */
+        font-size: 16px; /* Set font size */
+        resize: none; /* Disable manual resizing */
+      }
+
+      #response-container {
+        width: 80%; /* Set desired width here */
+        text-align: left;
+        margin: 0 auto 20px; /* Centering and setting top margin */
+        color: #000000;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        max-height: 180px; /* Adjust the max-height as needed, approximately 10 lines */
+        overflow-y: auto; /* Adds a scrollbar if content exceeds the container's height */
+        /* You might need to adjust line-height and font-size to fine-tune the 10 lines appearance */
+        line-height: 1.6; /* Adjust line height for better readability */
+        font-size: 16px; /* Adjust font size as needed */
+        margin-top: 20px;
+      }
+
+      #video-wrapper {
+        /* background: url(bg.png);*/
+        display: flex;
+        justify-content: center;
+        align-items: center; /* This will vertically center the video in the video wrapper */
+        height: 450px; /* Adjust the height as needed to provide space for lowering the circle */
+        padding-top: 5px; /* Add padding at the top to push the circle down */
+      }
+
+      #video-wrapper div {
+        width: 400px;
+        margin: 0 auto;
+        padding: 50px 0 0 0;
+      }
+      
+      video {
+        display: block;
+        /* border:1px solid; */
+        border-radius: 50%;
+        background-color: #000000;
+      }
+
+      .video-container {
+          background-image: url('bg.png'); /* Make sure the file name is correct and the image is in the right path */
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          margin-top: 50px;
+          width: 380px;
+          height: 380px;
+          border-radius: 55%;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative; /* This will position the background image within the bounds of the .video-container */
+      }
+
+      #talk-video {
+        width: 400px; /* Original video size */
+        height: 460px; /* Original video size */
+        object-fit: cover; /* Ensures the video covers the area without distortion */
+        transform: scale(.70); /* Zooms in the video content by 10% */
+        transform-origin: center; /* Ensures the scaling is centered */
+      }

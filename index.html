@@ -1,0 +1,115 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D-ID Streaming POC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- Link to our external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  
+  <body>
+    <div id="content">
+     <div id="video-wrapper">
+       <div class="video-container">
+         <video id="talk-video" autoplay></video>
+       </div>
+     </div>
+     <br />
+
+     <div id="input-container" style="text-align: left;">
+      <textarea id="user-input-field" placeholder="My name is Alpine and I am your Highland House FAQ assitant... 
+      How can I help you?"></textarea>
+      <div style="display: flex; justify-content: center;">
+          <input type="checkbox" id="toggleDID">
+          <label for="toggleDID">Send to DID</label>
+      </div>
+    </div>
+   <!-- OPTIONAL - SEE BELOW 
+    <div style="display: flex; justify-content: center; align-items: center; margin-top: 5px;">
+      <input type="checkbox" id="lang-toggle">
+      <label for="lang-toggle">Voice type in French?</label>
+    </div> -->
+
+    <div>
+      <input type="checkbox" id="toggleReadAloud" checked>
+      <label for="toggleReadAloud">Read Responses Aloud ('esc' to stop)</label>
+    </div>
+       <div style="height: 1em;"></div> 
+   </div>
+   
+      <div id="buttons">
+        <button id="connect-button" type="button">Connect</button>
+        <button id="voice-typing-button" type="button">Voice Typing</button>
+        <button id="replay-button" type="button">Replay Audio Response</button>
+        <button id="talk-button" type="button">Chat</button>
+      </div>
+
+      <div id="response-container">
+        <span class="response-label">Server response will appear here for reference</span>
+      </div>
+
+      <div id="status">
+        ICE gathering status: <span id="ice-gathering-status-label"></span><br />
+        ICE status: <span id="ice-status-label"></span><br />
+        Peer connection status: <span id="peer-status-label"></span><br />
+        Signaling status: <span id="signaling-status-label"></span><br />
+        Streaming status: <span id="streaming-status-label"></span><br />
+      </div>
+    </div>
+
+    <script>
+    document.getElementById('user-input-field').addEventListener('input', function () {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+    });
+
+      // Function to convert URLs in text to clickable links
+        function linkify(text) {
+          const urlRegex = /(https?:\/\/[^\s]+)/g;
+          return text.replace(urlRegex, function(url) {
+            return `<a href="${url}" target="_blank">${url}</a>`; // This opens links in a new tab
+          });
+        }
+ 
+        if ('webkitSpeechRecognition' in window) {
+          var recognition = new webkitSpeechRecognition();
+          recognition.continuous = false;
+          recognition.interimResults = true;
+          recognition.lang = 'en-US'; // Default language set to English
+
+          // Event listener for the language toggle checkbox
+          //document.getElementById('lang-toggle').addEventListener('change', function() {
+              //recognition.lang = this.checked ? 'fr-CA' : 'en-US';
+         // });
+
+          recognition.onresult = function(event) {
+              var final_transcript = '';
+              for (var i = event.resultIndex; i < event.results.length; ++i) {
+                  if (event.results[i].isFinal) {
+                      final_transcript += event.results[i][0].transcript;
+                  }
+              }
+              document.getElementById('user-input-field').value = final_transcript;
+          };
+
+          document.getElementById('voice-typing-button').addEventListener('click', function() {
+              recognition.start();
+          });
+      } else {
+          alert("Web Speech API is not supported in this browser.");
+      }// Event listener to cancel speech synthesis if the "Escape" key is pressed
+      document.addEventListener('keydown', (event) => {
+        if (event.key === "Escape") {
+          window.speechSynthesis.cancel();
+          console.log("Speech synthesis cancelled."); // Optional: for debugging
+        }
+      });
+    </script>
+    <script type="module" src="./streaming-client-api.js"></script>  
+    <script type="module" src="./langindex.js"></script>
+  </body>
+</html>
