@@ -1,7 +1,8 @@
-# Streaming Live Avatar with D-ID
+# Ollama Backend with wive Avatar from D-ID
 # A Langchain Retrieval on private data with D-ID and Ollama locally Hosted Models
 
 ## Initial Setup:
+* Install Ollama and set up (www.ollama.com)
 * (install express) open a terminal in the folder:
 * run this: npm install express
 * run this: npm install langchain
