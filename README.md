@@ -33,3 +33,4 @@ https://github.com/jjmlovesgit/OllamaDID/blob/main/noraLC_thumb.png
 
 Helpfull Flowchart:
 
+https://github.com/jjmlovesgit/OllamaDID/blob/main/flowchart.png?raw=true
