@@ -29,4 +29,7 @@
 
 For help See the Youtube:  
 
+https://github.com/jjmlovesgit/OllamaDID/blob/main/noraLC_thumb.png
+
+Helpfull Flowchart:
 
