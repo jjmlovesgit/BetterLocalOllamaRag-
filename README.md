@@ -28,13 +28,10 @@
 * Be patient and enjoy the puzzle if things are not working right away -- stay with it you will get it!
 
 For help See the Youtube:  
-
-![image](https://github.com/jjmlovesgit/OllamaDID/assets/47751509/ac9a52fd-06d2-49ce-bb4d-2f6d8ff204b5)
+![image](https://github.com/jjmlovesgit/OllamaDID/assets/47751509/a2d71890-3db3-4cd3-b382-784d5321812a)
 
 Helpfull Flowchart:
+![image](https://github.com/jjmlovesgit/OllamaDID/assets/47751509/ac9a52fd-06d2-49ce-bb4d-2f6d8ff204b5)
 
-https://github.com/jjmlovesgit/OllamaDID/blob/main/flowchart.png?raw=true
-
-![image](https://github.com/jjmlovesgit/OllamaDID/assets/47751509/a2d71890-3db3-4cd3-b382-784d5321812a)
 
 
