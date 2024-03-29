@@ -2,7 +2,7 @@
 //The remainder is the streaming config direct from D-ID github
 
 // Import the DID_API configuration
-import DID_API from './api.json' assert { type: 'json' };
+import DID_API from './api.json' with { type: 'json' };
 
 // Check if the API key is set in the configuration
 if (DID_API.key === '🤫') {
@@ -110,7 +110,7 @@ export async function handleDIDStreaming(chatResponse) {
       },
       config: {
         fluent: true,
-        pad_audio: .25,
+        pad_audio: .0,
         driver_expressions: {
           expressions: [{ expression: 'neutral', start_frame: 0, intensity: 0 }],
           transition_frames: 0
@@ -124,7 +124,7 @@ export async function handleDIDStreaming(chatResponse) {
         stitch: true,
         result_format: 'mp4'
       },
-      'driver_url': 'bank://lively/',
+      'driver_url': 'bank://subtle/driver-03',
       'config': {
         'stitch': true,
       },

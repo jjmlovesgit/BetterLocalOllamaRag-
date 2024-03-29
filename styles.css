@@ -1,5 +1,5 @@
       body {
-        background-image: url('nora_BG.jpg');
+        background-image: url('Nora_BG.jpg');
         /* Optionally, you can set properties like background size, position, and repeat */
         background-size: cover; /* Cover the entire viewport */
         background-position: center; /* Center the image */
@@ -140,28 +140,27 @@
         display: block; /* To apply margin auto */
         text-align: left; /* Align text to the left */
         color: #000000; /* Text color */
-        background-color: #ffffff; /* Background color */
+        background-color: #ebdfdf; /* Background color */
         border-radius: 5px; /* Rounded corners */
         overflow-y: auto; /* Adds scrollbar if content exceeds height */
         line-height: 1.6; /* Adjust line height for readability */
-        font-size: 16px; /* Set font size */
-        resize: none; /* Disable manual resizing */
+        font-size: 18px; /* Set font size */
+        
       }
 
       #response-container {
         width: 80%; /* Set desired width here */
-        text-align: left;
+        padding: 10px; /* Adjust padding for appearance */
+        box-sizing: border-box; /* Width includes padding */
         margin: 0 auto 20px; /* Centering and setting top margin */
-        color: #000000;
-        background-color: #ffffff;
-        padding: 10px;
-        border-radius: 5px;
-        max-height: 180px; /* Adjust the max-height as needed, approximately 10 lines */
-        overflow-y: auto; /* Adds a scrollbar if content exceeds the container's height */
-        /* You might need to adjust line-height and font-size to fine-tune the 10 lines appearance */
-        line-height: 1.6; /* Adjust line height for better readability */
-        font-size: 16px; /* Adjust font size as needed */
-        margin-top: 20px;
+        display: block; /* To apply margin auto */
+        text-align: left; /* Align text to the left */
+        color: #000000; /* Text color */
+        background-color: #ebdfdf; /* Background color */
+        border-radius: 5px; /* Rounded corners */
+        overflow-y: auto; /* Adds scrollbar if content exceeds height */
+        line-height: 1.6; /* Adjust line height for readability */
+        font-size: 18px; /* Set font size */
       }
 
       #video-wrapper {
@@ -183,7 +182,7 @@
         display: block;
         /* border:1px solid; */
         border-radius: 50%;
-        background-color: #000000;
+        background-color: #d2dee0;
       }
 
       .video-container {
