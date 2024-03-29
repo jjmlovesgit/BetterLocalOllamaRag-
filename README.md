@@ -8,7 +8,7 @@
 * run this: npm install langchain
 * run this: npm install openai
 
-* (add your d-id api key) edit the `api.json` inside the uncompressed folder and replace the emoji with your key
+* Optional - (www.d-id.com add your d-id api key) edit the `api.json` and replace text with your key
 * Run a test to ensure yor api is set correctly by checking d-id credit balance:  Run node test_d_id.js
 
 * Run a test to ensure yor api is set correctly by checking Ollama:  Run a local Query to your LLM using or prferred tool Webui etc
