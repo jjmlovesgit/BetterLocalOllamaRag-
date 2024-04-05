@@ -29,6 +29,7 @@
 
 For help See the Youtube:  
 https://github.com/jjmlovesgit/BetterLocalOllamaRag-/blob/main/thumb.png
+![image](https://github.com/jjmlovesgit/BetterLocalOllamaRag-/assets/47751509/f02db0a0-38dd-4c40-a407-9cd211cfd97f)
 
 Helpfull Flowchart:
 ![image](https://github.com/jjmlovesgit/OllamaDID/assets/47751509/ac9a52fd-06d2-49ce-bb4d-2f6d8ff204b5)
