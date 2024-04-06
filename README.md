@@ -16,7 +16,7 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime use this please:
 
 * Run a test to ensure yor api is set correctly by checking Ollama:  Run a local Query to your LLM using or preferred tool Webui etc
 * Got issues with Ollama?  Check this channel -- hands down best Ollama resource:  https://www.youtube.com/watch?v=90ozfdsQOKo
-* Ask for assistance over on D-ID discord https://discord.gg/Ux6S5mQT as both tests must work before proceeding
+* Ask for assistance over on D-ID discord https://discord.gg/Ux6S5mQT as I am on there daily
 
 ## Start the demo:
 * From directory where you installed Node (npm install express)
