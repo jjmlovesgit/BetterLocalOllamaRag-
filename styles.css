@@ -182,7 +182,7 @@
         display: block;
         /* border:1px solid; */
         border-radius: 50%;
-        background-color: #d2dee0;
+        background-color: hsla(0, 5%, 4%, 0.676);
       }
 
       .video-container {
