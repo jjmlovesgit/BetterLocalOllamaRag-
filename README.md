@@ -1,6 +1,8 @@
 # Ollama Backend with wive Avatar from D-ID
 # A Langchain Retrieval on private data with D-ID and Ollama locally Hosted Models
 
+I will plan to do a step by video series of how to set this code up and run it 
+
 ## Initial Setup:
 * Install Ollama and set up (www.ollama.com)
 * (install express) open a terminal in the folder:
@@ -22,7 +24,7 @@
 * (open index.html app) in the browser add http://localhost:3001/index.html
 * (connect) press connect you should see the connection ready 
 * The looping Avatar video should play
-* Claer all the check boxes and test that you can chat with your Ollama Model only (No Did Avatar)
+* Clear all the check boxes and test that you can chat with your Ollama Model only (No Did Avatar)
 * Once Ollama and you LLM are chatting then test voice typing to see if your browser is set up correctly 
 
 ## Final Thoughts
