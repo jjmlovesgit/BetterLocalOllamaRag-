@@ -11,8 +11,9 @@
 * Optional - (www.d-id.com add your d-id api key) edit the `api.json` and replace text with your key
 * Run a test to ensure yor api is set correctly by checking d-id credit balance:  Run node test_d_id.js
 
-* Run a test to ensure yor api is set correctly by checking Ollama:  Run a local Query to your LLM using or prferred tool Webui etc
-* Got issues?  Ask for assistance as both tests must work before proceeding
+* Run a test to ensure yor api is set correctly by checking Ollama:  Run a local Query to your LLM using or preferred tool Webui etc
+* Got issues with Ollama?  Check this channel -- hands down best Ollama resource:  https://www.youtube.com/watch?v=90ozfdsQOKo
+* Ask for assistance over on D-ID discord https://discord.gg/Ux6S5mQT as both tests must work before proceeding
 
 ## Start the demo:
 * From directory where you installed Node (npm install express)
