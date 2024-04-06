@@ -26,7 +26,9 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime use this please:
 * (connect) press connect you should see the connection ready 
 * The looping Avatar video should play
 * Clear all the check boxes and test that you can chat with your Ollama Model only (No Did Avatar)
-* Once Ollama and you LLM are chatting then test voice typing to see if your browser is set up correctly 
+* Once Ollama and you LLM are chatting then test voice typing to see if your browser is set up correctly
+* Check the box to send to D-ID and press the connect button to set up streaming conmnections
+* Input a Chat and the D-ID service will animate the response 
 
 ## Final Thoughts
 * Be patient and enjoy the puzzle if things are not working right away -- stay with it you will get it!
