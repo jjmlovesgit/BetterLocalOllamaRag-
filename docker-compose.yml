@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  ollama-1:
+    deploy:
+      replicas: 1
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    volumes:
+      - ./ollama:/root/.ollama
+    container_name: ollama-1
+    tty: true
+    environment:
+      - OLLAMA_HOST=0.0.0.0:11434
+      - OLLAMA_KEEP_ALIVE=-1m
+    ports:
+      - "11434:11434"  # Change the port mapping to avoid conflict
+    restart: unless-stopped
+    image: ollama/ollama:latest
+
+  ollama-2:
+    deploy:
+      replicas: 1
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    volumes:
+      - ./ollama:/root/.ollama
+    container_name: ollama-2
+    tty: true
+    environment:
+      - OLLAMA_HOST=0.0.0.0:11435
+      - OLLAMA_KEEP_ALIVE=-1m
+    ports:
+      - "11435:11435"  # Change the port mapping to avoid conflict
+    restart: unless-stopped
+    image: ollama/ollama:latest
+
+networks:
+  ollama_net:
