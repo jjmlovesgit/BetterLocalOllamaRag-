@@ -1,4 +1,4 @@
-# Ollama Backend with wive Avatar from D-ID
+# Ollama Backend with Live Avatar from D-ID
 # A Langchain Retrieval on private data with D-ID and Ollama locally Hosted Models
 
 I will plan to do a step by video series of how to set this code up and run it over on Youtube
