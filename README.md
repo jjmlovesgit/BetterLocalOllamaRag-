@@ -11,8 +11,8 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime use this please:
 * run this: npm install langchain
 * run this: npm install openai
 
-* Optional - (www.d-id.com add your d-id api key) edit the `api.json` and replace text with your key
-* Run a test to ensure yor api is set correctly by checking d-id credit balance:  Run node test_d_id.js
+* Optional Sign up for the free Tier D-ID Avatar service - (www.d-id.com add your d-id api key) edit the `api.json` and replace text with your key
+* Run a test to ensure your D-ID api is set correctly by checking d-id credit balance:  Run node test_d_id.js
 
 * Run a test to ensure yor api is set correctly by checking Ollama:  Run a local Query to your LLM using or preferred tool Webui etc
 * Got issues with Ollama?  Check this channel -- hands down best Ollama resource:  https://www.youtube.com/watch?v=90ozfdsQOKo
