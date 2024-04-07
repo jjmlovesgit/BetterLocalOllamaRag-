@@ -3,7 +3,7 @@
 I will plan to do a step by video series of how to set this up and run it over on Youtube
 https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
 
-### Initial Setup (You should complete these defore starting on the software):
+## Initial Setup (You should complete these defore starting on the software):
 * Do you have an Nvidia GPU?  Make sure your Nvidia Drivers are set up
    * https://www.nvidia.com/Download/index.aspx?lang=en-us
 * Install Docker
@@ -12,7 +12,7 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
    * https://www.ollama.com
    * Setup Video: (https://youtu.be/90ozfdsQOKo)
 
-### Software Setup 
+## Software Setup 
 * Launch the Docker contiainer for Ollama Models:  docker-compose up  
 * Before installing these packages download and install Node.js (https://nodejs.org/en/download/)
 * Choose you project folder where you will run this software
