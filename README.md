@@ -14,7 +14,7 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime use this please:
 * Open a terminal in that folder (Setup Videdo:  https://youtu.be/P3aKRdUyr0s)
 * run this: npm install express
 * run this: npm install langchain
-* run this: npm install openai
+* run this: npm install openai (ollama is openai API Compatible)
 
 * Optional Sign up for the free Tier D-ID Avatar service - (www.d-id.com add your d-id api key) edit the `api.json` and replace text with your key
 * Run a test to ensure your D-ID api is set correctly by checking d-id credit balance:  Run node test_d_id.js
