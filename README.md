@@ -1,5 +1,5 @@
 # Ollama Backend with Live Avatar from D-ID
-# A Langchain Retrieval on private data with D-ID and Ollama locally Hosted Models
+# Langchain RAG locally Hosted Models
 
 I will plan to do a step by video series of how to set this code up and run it over on Youtube
 https://www.youtube.com/@AI_by_AI_007/videos In the meantime use this please:
