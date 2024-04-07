@@ -13,16 +13,15 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
    * Setup Video: (https://youtu.be/90ozfdsQOKo)
 
 ## Software Setup 
-* Clone (or copy) the Repo here to you project folder
+* Step 1:  Clone (or copy) the Repo here to you project folder
     * https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-* Launch the Docker contiainer for Ollama Models:  docker-compose up  
-* Before installing these packages download and install Node.js (https://nodejs.org/en/download/)
-* Choose you project folder where you will run this software
-* Clone or copy the files from this repo here with our "BetterLocalOllamaRag" software build
-* Open a terminal in that folder (Setup Videdo:  https://youtu.be/P3aKRdUyr0s)
-* run this: npm install express
-* run this: npm install langchain
-* run this: npm install openai (ollama is openai API Compatible)
+* Step #2:  Download and install Node.js if you have not already done so
+    * https://nodejs.org/en/download/
+* Step #3:  From project folder where you copied the files from Github
+   * Open a terminal Window in that folder and od these installs below (Helpful Setup Video:  https://youtu.be/P3aKRdUyr0s)
+        * run this: npm install express
+        * run this: npm install langchain
+        * run this: npm install openai (ollama is openai API Compatible)
 
 * Optional Sign up for the free Tier D-ID Avatar service - (www.d-id.com add your d-id api key) edit the `api.json` and replace text with your key
 * Run a test to ensure your D-ID api is set correctly by checking d-id credit balance:  Run node test_d_id.js
