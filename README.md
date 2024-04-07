@@ -1,13 +1,14 @@
-# Ollama Backend with Live Avatar from D-ID
-# Langchain RAG locally Hosted Models
+# Ollama RAG with a "Live" Avatar from D-ID
 
-I will plan to do a step by video series of how to set this code up and run it over on Youtube
-https://www.youtube.com/@AI_by_AI_007/videos In the meantime use this please:
+I will plan to do a step by video series of how to set this up and run it over on Youtube
+https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
 
-### Initial Setup:
-* Got GPU?  zMaskes ure your Nvidia Drivers are set up
-Got Foundati Install Ollama and set up (www.ollama.com) Setup Video:  (https://youtu.be/90ozfdsQOKo)
-* Install Docker and review the docker-compose.yml
+### Initial Setup you shopuld already ha before starting:
+* Do you have an Nvidia GPU?  Make sure your Nvidia Drivers are set up https://www.nvidia.com/Download/index.aspx?lang=en-us
+* Install Docker https://docs.docker.com/desktop/install/windows-install/
+* Install Ollama (www.ollama.com) Setup Video: (https://youtu.be/90ozfdsQOKo)
+
+  
 * Launch the Docker contiainer for Ollama Models:  docker-compose up  
 * Before installing these packages download and install Node.js (https://nodejs.org/en/download/)
 * Choose you project folder where you will run this software
