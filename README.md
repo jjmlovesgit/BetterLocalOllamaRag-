@@ -27,7 +27,7 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
     * https://www.d-id.com and get your API key
     * Add your d-id api key to the `api.json` file in you prject directory 
 * Run a test to ensure your D-ID api is set correctly
-    * Test by checking d-id credit balance:  Run <node test_d_id.js>
+    * Test by checking d-id credit balance:  Run node test_d_id.js
 
 * Run a test to ensure yor api is set correctly by checking Ollama:  Run a local Query to your LLM using or preferred tool Webui etc
 * Got issues with Ollama?  Check this channel -- hands down best Ollama resource:  https://www.youtube.com/watch?v=90ozfdsQOKo
