@@ -13,6 +13,8 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
    * Setup Video: (https://youtu.be/90ozfdsQOKo)
 
 ## Software Setup 
+* Clone (or copy) the Repo here to you project folder
+    * https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 * Launch the Docker contiainer for Ollama Models:  docker-compose up  
 * Before installing these packages download and install Node.js (https://nodejs.org/en/download/)
 * Choose you project folder where you will run this software
