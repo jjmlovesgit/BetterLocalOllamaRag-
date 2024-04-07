@@ -41,6 +41,7 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
 * From you project directory and session where you installed Node and ran npm install express in step #3
       * start up the backend server by running node app.js
       * You should see this message - server started on port localhost:3001
+  
 * (open index.html app) in the browser add http://localhost:3001/index.html
 * (connect) press connect you should see the connection ready 
 * The looping Avatar video should play
