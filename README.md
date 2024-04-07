@@ -4,8 +4,9 @@
 I will plan to do a step by video series of how to set this code up and run it over on Youtube
 https://www.youtube.com/@AI_by_AI_007/videos In the meantime use this please:
 
-## Initial Setup:
-* Install Ollama and set up (www.ollama.com) Setup Video:  (https://youtu.be/90ozfdsQOKo)
+### Initial Setup:
+* Got GPU?  zMaskes ure your Nvidia Drivers are set up
+Got Foundati Install Ollama and set up (www.ollama.com) Setup Video:  (https://youtu.be/90ozfdsQOKo)
 * Install Docker and review the docker-compose.yml
 * Launch the Docker contiainer for Ollama Models:  docker-compose up  
 * Before installing these packages download and install Node.js (https://nodejs.org/en/download/)
