@@ -30,8 +30,7 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
         * Test by checking d-id credit balance:  Run this:  node test_d_id.js
 * Install ollama https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image
         * Test your Ollama install https://github.com/ollama/ollama
-  
-* Run a test to ensure yor api is set correctly by checking Ollama:  Run a local Query to your LLM using or preferred tool Webui etc
+## Troubleshooting  
 * Got issues with Ollama?  Check this channel -- hands down best Ollama resource:  https://www.youtube.com/watch?v=90ozfdsQOKo
 * Ask for assistance over on D-ID discord https://discord.gg/Ux6S5mQT as I am on there daily
 
