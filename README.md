@@ -12,7 +12,7 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
    * https://www.ollama.com
    * Setup Video: (https://youtu.be/90ozfdsQOKo)
 
-  
+### Software Setup 
 * Launch the Docker contiainer for Ollama Models:  docker-compose up  
 * Before installing these packages download and install Node.js (https://nodejs.org/en/download/)
 * Choose you project folder where you will run this software
