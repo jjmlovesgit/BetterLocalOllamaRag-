@@ -5,9 +5,12 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
 
 ### Initial Setup (You should complete these defore starting on the software):
 * Do you have an Nvidia GPU?  Make sure your Nvidia Drivers are set up
-  * https://www.nvidia.com/Download/index.aspx?lang=en-us
-* Install Docker https://docs.docker.com/desktop/install/windows-install/
-* Install Ollama (www.ollama.com) Setup Video: (https://youtu.be/90ozfdsQOKo)
+   * https://www.nvidia.com/Download/index.aspx?lang=en-us
+* Install Docker
+   * https://docs.docker.com/desktop/install/windows-install/
+* Install Ollama
+   * https://www.ollama.com
+   * Setup Video: (https://youtu.be/90ozfdsQOKo)
 
   
 * Launch the Docker contiainer for Ollama Models:  docker-compose up  
