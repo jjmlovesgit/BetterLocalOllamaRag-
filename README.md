@@ -30,9 +30,13 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
         * Test by checking d-id credit balance:  Run this:  node test_d_id.js
 * Install ollama https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image
         * Test your Ollama install https://github.com/ollama/ollama
-## Troubleshooting  
+## Troubleshooting steps so far 
 * Got issues with Ollama?  Check this channel -- hands down best Ollama resource:  https://www.youtube.com/watch?v=90ozfdsQOKo
-* Ask for assistance over on D-ID discord https://discord.gg/Ux6S5mQT as I am on there daily
+* Consult with ChatGPT or your favorite model -- they all know nore then I do :)
+* Ask for assistance over on discord as all these packages vave servers with helpful people on them
+        * D-ID discord:  https://discord.gg/Ux6S5mQT
+        * Ollama Discord:  https://discord.gg/74FzdcnZ
+  
 
 ## Start the demo:
 * From directory where you installed Node (npm install express)
