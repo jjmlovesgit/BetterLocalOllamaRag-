@@ -1,4 +1,4 @@
-<span style="color:red"> # Ollama RAG with a "Live" Avatar from D-ID </span>
+# Ollama RAG with a "Live" Avatar from D-ID 
 
 I will plan to do a step by video series of how to set this up and run it over on Youtube
 https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
