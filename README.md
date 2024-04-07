@@ -28,19 +28,19 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
     * Add your d-id api key to the `api.json` file in you prject directory 
     * Run a test to ensure your D-ID api is set correctly
         * Test by checking d-id credit balance:  Run this:  node test_d_id.js
-* Install ollama https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image Test your Ollama install https://github.com/ollama/ollama
-## Troubleshooting steps so far 
+* Step #5:  Install ollama https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image Test your Ollama install https://github.com/ollama/ollama
+
+## Troubleshooting steps above 
 * Got issues with Ollama?  Check this channel -- hands down best Ollama resource:  https://www.youtube.com/watch?v=90ozfdsQOKo
 * Consult with ChatGPT or your favorite model -- they all know nore then I do :)
-* Ask for assistance over on discord as all these packages vave servers with helpful people on them
+* Ask human assistance try Discord as all these packages have servers with helpful people on them
         D-ID discord:  https://discord.gg/Ux6S5mQT
         Ollama Discord:  https://discord.gg/74FzdcnZ
   
-
-## Start the demo:
-* From directory where you installed Node (npm install express)
-* start up the server with node app.js
-* You should see this message - server started on port localhost:3001
+# Starting the Software:
+* From you project directory and session where you installed Node and ran npm install express in step #3
+      * start up the backend server by running node app.js
+      * You should see this message - server started on port localhost:3001
 * (open index.html app) in the browser add http://localhost:3001/index.html
 * (connect) press connect you should see the connection ready 
 * The looping Avatar video should play
