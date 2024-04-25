@@ -1,5 +1,7 @@
 # Ollama RAG with a "Live" Avatar from D-ID 
 
+https://youtu.be/xb8vj5Wqy20
+
 I will plan to do a step by video series of how to set this up and run it over on Youtube
 https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
 
@@ -52,9 +54,10 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime here are the steps:
 
 ## Final Thoughts
 * Be patient and enjoy the puzzle if things are not working right away -- stay with it you will get it!
+https://youtu.be/xb8vj5Wqy20
 
 For help See the Youtube:  
-https://github.com/jjmlovesgit/BetterLocalOllamaRag-/blob/main/thumb.png
+[https://github.com/jjmlovesgit/BetterLocalOllamaRag-/blob/main/thumb.png](https://youtu.be/xb8vj5Wqy20)
 ![image](https://github.com/jjmlovesgit/BetterLocalOllamaRag-/assets/47751509/f02db0a0-38dd-4c40-a407-9cd211cfd97f)
 
 Helpfull Flowchart:
