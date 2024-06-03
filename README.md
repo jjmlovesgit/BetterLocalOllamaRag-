@@ -25,7 +25,8 @@ https://www.youtube.com/@AI_by_AI_007/videos In the meantime, here are the steps
         * Run this: npm install express
         * Run this: npm install langchain
         * Run this: npm install openai (Ollama is OpenAI API compatible)
-        * Install all the elements from package.json etc
+        * Install all the elements from package.json (Base64 etc) etc
+            
 * Step 4:  Optional sign up for the free tier D-ID Avatar service
     * https://www.d-id.com and get your API key
     * Add your D-ID API key to the `api.json` file in your project directory 
